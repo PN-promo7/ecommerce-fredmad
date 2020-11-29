@@ -216,6 +216,10 @@ header {
 	padding-bottom: 5px;
 }
 
+.conseils article a {
+	display: block;
+}
+
 .conseils article:hover {
 	box-shadow: 0 14px 35px rgba(0,0,0,0.35), 0 10px 15px rgba(0,0,0,0.32);
 }
@@ -339,6 +343,10 @@ header {
 .categories img {	
 	border: 2px solid #245580;
 	width: 100%;
+}
+
+.categories a {
+	display: block;
 }
 
 
