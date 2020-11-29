@@ -1,0 +1,470 @@
+/* Ce qui est générique */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #E9F1F7;
+	position: relative;
+	font-size: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+}
+
+.d-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/* Typographies */
+
+body, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Satisfy', cursive;
+	position: absolute;
+	font-weight: lighter;
+	top: 25%;
+	left: 40%;
+	font-size: 4.5rem;
+	color: white;
+}
+
+h2, h4, h5, h6, p {
+	font-family: 'Lobster Two', cursive;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+h3 {
+	font-family: 'Lora', serif;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+h4, h5, h6 {
+	font-weight: 400;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Ma nav */
+
+.navigation {
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .35);
+	background-color: #E9F1F7;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+}
+
+.navigation img {
+	height: 50px;
+	margin: 14px 0 10px 60px;
+}
+
+.menu-nav ul {
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 50px;
+	height: 50px;
+}
+
+.menu-nav li {
+	font-family: 'Lobster Two', cursive;
+	font-size: 2rem;
+	padding: 0 10px;
+}
+
+.menu-nav li:not(:last-child) {
+	border-right: 2px solid #000;
+}
+
+.menu-nav a {
+	color: black;
+}
+
+.active a, .menu-nav a:hover {
+	color: #245580;
+	text-decoration: underline;
+}
+
+
+/* Mon header */
+
+header {
+	background-image: url("../images/png/header.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin-top: 78px;
+	padding: 225px 0;
+}
+
+.idea-1, .idea-2, .action, .myBtn {
+	position: absolute;
+}
+
+.idea-1, .idea-2 {
+	border: 2px solid white;
+	padding: 4px 4px 0 4px;
+}
+
+.idea-1 a, .idea-2 a {
+	display: block;
+}
+
+.idea-1 {
+	left: 3%;
+	top: 15%;
+}
+
+.idea-2 {
+	left: 20%;
+	bottom: 15%;
+}
+
+.action {
+	justify-content: center;
+	top: 55%;
+	left: 41%;
+}
+
+.action p, .myBtn {
+	color: white;
+}
+
+.action p {
+	font-size: 2rem;
+}
+
+.myBtn {
+	font-family: 'Lora', serif;
+	background-color: #406b5a;
+	cursor: pointer;
+	border: none;
+	height: 40px;
+}
+
+.action .myBtn {
+	font-size: 1.5rem;
+	padding: 5px 20px;
+	margin-top: 22%;
+}
+
+.myBtn:hover {
+	background-color: #245580;
+	color: black;
+	transition: 1s;
+}
+
+
+/* Mes conseils */
+
+.advices, .conseils {
+	margin-top: 30px;
+}
+
+.conseils, .price {
+	justify-content: space-around;
+	align-items: center;
+}
+
+.conseils article {
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	border: 2px solid #245580;
+	padding-bottom: 5px;
+}
+
+.conseils article:hover {
+	box-shadow: 0 14px 35px rgba(0,0,0,0.35), 0 10px 15px rgba(0,0,0,0.32);
+}
+
+.conseils img {
+	width: 100%;
+}
+
+.price p, .price a {
+	color: #245580;
+}
+
+.price p, .price li {
+	font-size: 1.5rem;
+	margin-top: 10px;
+}
+
+.price p {
+	font-weight: 500;
+}
+
+.price li {
+	padding-right: 15px;
+}
+
+
+/* Mes nouveautés */
+
+.pub-1, .pub-2 {
+	background-image: url("../images/png/nouveautés.png");
+	background-position: center;
+	background-size: cover;
+	padding: 215px 0;
+	margin-top: 55px;
+	position: relative;
+}
+
+.promo {
+	position: absolute;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 40px;
+}
+
+.new {
+	right: 55px;
+}
+
+.promo img {
+	width: 20%;
+}
+
+.promo h3, .promo p {
+	margin-top: 25px;
+}
+
+.promo h3 {
+	color: white;
+	font-size: 3rem;
+}
+
+.promo p {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.promo .myBtn {
+	font-size: 1.5rem;
+	padding: 5px 20px;
+	margin-top: 75%;
+}
+
+
+/* Mes rayons */
+
+.store {
+	margin-top: 30px;
+}
+
+.rayons {
+	margin-top: 35px;
+}
+
+.ligne2 {
+	margin-top: 25px;
+}
+
+.ligne1, .ligne2 {
+	justify-content: space-evenly;
+}
+
+.categories {
+	position: relative;
+}
+
+.categories .overlay {
+	background-color: rgba(0, 0, 0, .55);
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 98%;
+	top: 0;
+	left: 0;
+	transition: 1.5s ease;
+	opacity: 0;
+}
+  
+.categories:hover .overlay {
+	opacity: 1;
+}
+
+.overlay h3 {
+	color: white;
+	font-size: 2.3rem;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.categories img {	
+	border: 2px solid #245580;
+	width: 100%;
+}
+
+
+/* Mes e-books */
+
+.pub-2 {
+	background-image: url("../images/png/e-book.png");
+}
+
+.e-book {
+	left: 100px;
+}
+
+
+/* Mes avantages */
+
+.avantage ul {
+	justify-content: space-around;
+	margin: 90px 0;
+}
+
+.avantage li {
+	color: #245580;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.avantage i {
+	font-size: 5rem;
+	margin-bottom: 10px;
+}
+
+.avantage .services {
+	font-weight: bold;
+}
+
+
+/* Mon footer */
+
+.page-footer, .inscription {
+	position: relative;
+}
+
+.page-footer {
+	background-color: #000000;
+	padding: 25px 0;
+}
+
+.info {
+	justify-content: space-around;
+	align-items: flex-start;
+	text-align: center;
+}
+
+.info p, .page-footer a {
+	color: white;
+}
+
+.info p {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.info li {
+	margin-top: 15px;
+}
+
+.info ul {
+	margin-top: 30px;
+}
+
+.network li {
+	margin-top: -3px;
+	align-items: center;
+}
+
+.network a {
+	color: #406b5a;
+	font-size: 3rem;
+	margin: 0 5px;
+}
+
+.inscription {
+	margin-top: 33px;
+}
+
+.mail {
+	font-family: 'Lora', serif;
+	border: 1px solid #406b5a;
+	padding: 0 10px 0 10px;
+	height: 40px;
+	width: 100%;
+}
+
+.inscription .myBtn {
+	font-size: 1.3rem;
+	padding: 0 10px;
+	top: 0;
+	right: -10px;
+}
+
+
+/* Retour en haut de page */
+
+.arrow-top {
+	background-color: #406b5a;
+	position: absolute;
+	text-align: center;
+	padding: 10px;
+	top: 20px;
+	right: 20px;
+}
+
+.arrow-top, .arrow-top a {
+	transition: 1.5s ease;
+}
+
+.arrow-top a {
+	font-size: 2rem;
+}
+
+.arrow-top:hover {
+	background-color: #245580;
+}
+
+.arrow-top a:hover {
+	color: black;
+}

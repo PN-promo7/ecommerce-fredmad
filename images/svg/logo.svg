@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 235 222" width="235" height="222">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0.44 4L54 4L54 193L0.44 193L0.44 4Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="M0.44 202L234.44 202L234.44 221.13L0.44 221.13L0.44 202Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp3">
+			<path d="M133 -0.12L234.44 -0.12L234.44 193L133 193L133 -0.12Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #337ab7 } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<g id="surface1">
+		<g id="Clip-Path" clip-path="url(#cp1)">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M47.33 192.86L7.27 192.86C3.73 192.86 0.82 189.96 0.82 186.42L0.82 10.48C0.82 6.95 3.73 4.05 7.27 4.05L47.33 4.05C50.87 4.05 53.78 6.95 53.78 10.48L53.78 186.42C53.78 189.96 50.87 192.86 47.33 192.86Z" />
+			</g>
+		</g>
+		<g id="Clip-Path" clip-path="url(#cp2)">
+			<g id="Layer">
+				<path id="Layer" class="shp1" d="M234.49 205.73L234.49 217.6C234.49 219.62 232.85 221.13 230.96 221.13L4.36 221.13C2.34 221.13 0.82 219.49 0.82 217.6L0.82 205.73C0.82 203.71 2.47 202.2 4.36 202.2L230.96 202.2C232.98 202.2 234.49 203.84 234.49 205.73Z" />
+			</g>
+		</g>
+		<path id="Layer" class="shp1" d="M114.94 192.86L74.88 192.86C71.34 192.86 68.44 189.96 68.44 186.42L68.44 10.48C68.44 6.95 71.34 4.05 74.88 4.05L114.94 4.05C118.48 4.05 121.39 6.95 121.39 10.48L121.39 186.42C121.26 189.96 118.48 192.86 114.94 192.86Z" />
+		<g id="Clip-Path" clip-path="url(#cp3)">
+			<g id="Layer">
+				<path id="Layer" class="shp1" d="M229.95 181.25L191.53 192.48C188.11 193.49 184.57 191.6 183.57 188.19L133.77 19.45C132.76 16.04 134.66 12.5 138.07 11.49L176.49 0.13C179.9 -0.88 183.44 1.02 184.45 4.43L234.24 173.3C235.25 176.7 233.36 180.24 229.95 181.25Z" />
+			</g>
+		</g>
+	</g>
+</svg>
